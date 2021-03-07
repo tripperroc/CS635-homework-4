@@ -38,7 +38,7 @@ x = yx[:,1:]
 	parameters as an upper triangular matrix, because if you do it properly it easy to compute h and g.
 """
 
-"""[5 point] Run descent for 0, 1, 5, 10, 25, 50 iterations. 
+"""[5 point] Run descent for 0, 1, 5, 10, 25, 50, and 400 iterations. 
 [5 points] Graph precision, recall, and f1 for correctly guessing the zero class on your training data by
 rounding the output of h(x,p) to 0 or 1, whichever is closest. You can put all three quantities in one graph
 or create three separate graphs. 
