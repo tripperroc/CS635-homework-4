@@ -30,6 +30,7 @@ def g_regularized(p, x_batch, y_batch, l):
 	p -- the parameters of linear function, where p[0] is the coefficent of x[0] etc. and p[-1] is the bias parameter.
 	x_batch -- a matrix representing a batch of input the data space, where len(x) = len(p) - 1
 	y_batch -- the (real number) label associated with the items in the data batch
+	l -- regularization weight hyperparameter
 	"""
 
 """[5 points] randomly initialize your parameters. You may want to store them as an upper triangular
@@ -43,6 +44,7 @@ def g_regularized(p, x_batch, y_batch, l):
 """
 
 	
+"""[5 points] implement and repeat experiments with g_regularized"""
 
 
 
