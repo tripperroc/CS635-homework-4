@@ -8,7 +8,7 @@ from descender import descend
 
 
 def h(x, p):
-	""" return a linear function of x, with
+	""" return a quadratic function of x, with
 	x -- an array in the data space, where len(x) = len(p) - 1
 	p -- the parameters of linear function, where p[0] is the coefficent of x[0] etc. and p[-1] is the bias parameter.
 	"""
@@ -20,14 +20,14 @@ you may factor this into a function in descender.py that both programs can use.
 
 def g(p, x, y):
 	"""[5 points] return the gradient of h for parameter list p
-	p -- the parameters of linear function, where p[0] is the coefficent of x[0] etc. and p[-1] is the bias parameter.
+	p -- the parameters of the function, where p[0] is the coefficent of x[0] etc. and p[-1] is the bias parameter.
 	x_batch -- a matrix representing a batch of input the data space, where len(x) = len(p) - 1
 	y_batch -- the (real number) label associated with the items in the data batch
 	"""
 
 def g_regularized(p, x_batch, y_batch, l):
 	"""[5 points] return the gradient of h for parameter list p
-	p -- the parameters of linear function, where p[0] is the coefficent of x[0] etc. and p[-1] is the bias parameter.
+	p -- the parameters of the function, where p[0] is the coefficent of x[0] etc. and p[-1] is the bias parameter.
 	x_batch -- a matrix representing a batch of input the data space, where len(x) = len(p) - 1
 	y_batch -- the (real number) label associated with the items in the data batch
 	l -- regularization weight hyperparameter
